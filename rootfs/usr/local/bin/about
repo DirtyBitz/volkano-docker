@@ -1,0 +1,7 @@
+#!/bin/ash
+echo "* Alpine Linux $(cat /etc/alpine-release)"
+echo "* $(ruby -v | sed s/ruby/Ruby/)"
+echo "* RubyGems $(gem --version)"
+echo "* $(bundler --version | sed 's/version //')"
+echo "* Node $(node --version)"
+echo "* Yarn $(yarn --version)"
