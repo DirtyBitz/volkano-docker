@@ -1,5 +1,4 @@
-#!/bin/ash
-echo "* Alpine Linux $(cat /etc/alpine-release)"
+#!/bin/bash
 echo "* $(ruby -v | sed s/ruby/Ruby/)"
 echo "* RubyGems $(gem --version)"
 echo "* $(bundler --version | sed 's/version //')"
